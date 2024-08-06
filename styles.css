@@ -117,8 +117,8 @@ h1 {
 
     .container {
         flex-direction: row;
-        width: 30rem;
-        height: 25rem;
+        width: 32rem;
+        height: 28rem;
         padding-right: 1rem;
     }
     
@@ -146,31 +146,37 @@ h1 {
         width: 10ch;
         font-size: 2.2rem;
         line-height: 2rem;
+        font-weight: 650;
     }
 
     .card > .category {
-        margin-bottom: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;
     }
 
     .card > .description {
         width: 25ch;
         font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 0.5rem;
     }
 
     .card > button {
         width: 13rem;
         padding: 0.7rem;
         font-size: 1rem;
+        margin-top: 1rem;
     }
 
     .price {
         width: 55%;
-        margin-bottom: -1.5px;
-        margin-top: 0.1px;
+        margin-bottom: 0.1rem;
+        margin-top: -1px;
     }
 
     .new-price {
         font-size: 1.5rem;
+        padding-right: 1rem;
     }
 
     .old-price {
